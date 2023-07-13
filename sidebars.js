@@ -25,16 +25,44 @@ const sidebars = {
   frontendSidebar: [
     {
       type: 'category',
-      label: 'CSS',
+      label: 'Web API',
       items: [
         {
           type: 'doc',
-          id: 'notes/frontend/css/css'
+          label: 'Location',
+          id: 'javascript/web-api/location'
+        },
+        {
+          type: 'doc',
+          label: 'History',
+          id: 'javascript/web-api/history'
+        },
+        {
+          type: 'doc',
+          label: 'Fetch',
+          id: 'javascript/web-api/fetch'
+        },
+        {
+          type: 'doc',
+          label: '瀏覽器儲存區',
+          id: 'javascript/web-api/storage'
+        },
+      ]
+    }
+  ],
+  softwareBar: [
+    {
+      type: 'category',
+      label: 'GIT',
+      items: [
+        {
+          type: 'doc',
+          label: 'Intro',
+          id: 'software/git/intro'
         }
       ]
     }
   ]
-
 
 };
 
