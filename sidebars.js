@@ -12,58 +12,93 @@
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const sidebars = {
-  // By default, Docusaurus generates a sidebar from the docs folder structure
-  // tutorialSidebar: [
-  //   'hello',
-  //   {
-  //     type: 'category',
-  //     label: 'Tutorial',
-  //     items: ['tutorial-basics/create-a-document'],
-  //   },
-  // ],
-  frontendSidebar: [
-    {
-      type: 'category',
-      label: 'Web API',
-      items: [
-        {
-          type: 'doc',
-          label: 'Location',
-          id: 'javascript/web-api/location'
-        },
-        {
-          type: 'doc',
-          label: 'History',
-          id: 'javascript/web-api/history'
-        },
-        {
-          type: 'doc',
-          label: 'Fetch',
-          id: 'javascript/web-api/fetch'
-        },
-        {
-          type: 'doc',
-          label: '瀏覽器儲存區',
-          id: 'javascript/web-api/storage'
-        },
-      ]
-    }
-  ],
-  softwareBar: [
-    {
-      type: 'category',
-      label: 'GIT',
-      items: [
-        {
-          type: 'doc',
-          label: 'Intro',
-          id: 'software/git/intro'
-        }
-      ]
-    }
-  ]
+// const sidebars = {
+//   frontendSidebar: [
+//     {
+//       type: 'category',
+//       label: 'Web API',
+//       items: [
+//         {
+//           type: 'doc',
+//           label: 'Location',
+//           id: 'frontend/web-api/location'
+//         },
+//         {
+//           type: 'doc',
+//           label: 'History',
+//           id: 'frontend/web-api/history'
+//         },
+//         {
+//           type: 'doc',
+//           label: 'Fetch',
+//           id: 'frontend/web-api/fetch'
+//         },
+//         {
+//           type: 'doc',
+//           label: '瀏覽器儲存區',
+//           id: 'frontend/web-api/storage'
+//         },
+//       ]
+//     },
+//   ],
+//   softwareBar: [
+//     {
+//       type: 'category',
+//       label: 'GIT',
+//       items: [
+//         {
+//           type: 'doc',
+//           label: 'Intro',
+//           id: 'software/git/intro'
+//         }
+//       ]
+//     }
+//   ]
 
+// };
+
+module.exports = {
+  frontendSidebar: {
+    CSS: [
+      {
+        type: 'category',
+        label: '動畫',
+        collapsible: true,
+        collapsed: false,
+        items: [{
+          type: 'doc',
+          id: "frontend/css/animation/transition",
+          label: "Transition"
+        },
+        {
+          type: 'doc',
+          id: "frontend/css/animation/animation",
+          label: "Animation"
+        }]
+      }
+    ],
+    WebAPI: [
+      {
+        type: 'doc',
+        label: 'Location',
+        id: 'frontend/web-api/location'
+      },
+      {
+        type: 'doc',
+        label: 'History',
+        id: 'frontend/web-api/history'
+      },
+      {
+        type: 'doc',
+        label: 'Fetch',
+        id: 'frontend/web-api/fetch'
+      },
+      {
+        type: 'doc',
+        label: '瀏覽器儲存區',
+        id: 'frontend/web-api/storage'
+      },
+    ]
+
+  }
 };
-
-module.exports = sidebars;

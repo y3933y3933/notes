@@ -78,12 +78,12 @@ const config = {
             position: 'left',
             label: '前端筆記'
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'softwareBar',
-            position: 'left',
-            label: '軟體開發筆記'
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'softwareBar',
+          //   position: 'left',
+          //   label: '軟體開發筆記'
+          // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
