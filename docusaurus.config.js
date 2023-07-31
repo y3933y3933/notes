@@ -78,6 +78,12 @@ const config = {
             position: 'left',
             label: '前端筆記'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'computerScienceBar',
+            position: 'left',
+            label: '計算機筆記'
+          }
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'softwareBar',

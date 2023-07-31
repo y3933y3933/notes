@@ -12,50 +12,7 @@
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-// const sidebars = {
-//   frontendSidebar: [
-//     {
-//       type: 'category',
-//       label: 'Web API',
-//       items: [
-//         {
-//           type: 'doc',
-//           label: 'Location',
-//           id: 'frontend/web-api/location'
-//         },
-//         {
-//           type: 'doc',
-//           label: 'History',
-//           id: 'frontend/web-api/history'
-//         },
-//         {
-//           type: 'doc',
-//           label: 'Fetch',
-//           id: 'frontend/web-api/fetch'
-//         },
-//         {
-//           type: 'doc',
-//           label: '瀏覽器儲存區',
-//           id: 'frontend/web-api/storage'
-//         },
-//       ]
-//     },
-//   ],
-//   softwareBar: [
-//     {
-//       type: 'category',
-//       label: 'GIT',
-//       items: [
-//         {
-//           type: 'doc',
-//           label: 'Intro',
-//           id: 'software/git/intro'
-//         }
-//       ]
-//     }
-//   ]
 
-// };
 
 module.exports = {
   frontendSidebar: {
@@ -99,6 +56,23 @@ module.exports = {
         id: 'frontend/web-api/storage'
       },
     ]
-
-  }
+  },
+  computerScienceBar: [
+    {
+      type: 'category',
+      label: '網際網路協定',
+      items: [
+        {
+          type: 'doc',
+          id: 'computer-science/internet/application1',
+          label: '應用程式協定(上)'
+        },
+        {
+          type: 'doc',
+          id: 'computer-science/internet/application2',
+          label: '應用程式協定(下)'
+        },
+      ]
+    }
+  ]
 };

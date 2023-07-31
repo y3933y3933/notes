@@ -5,6 +5,10 @@ tags:
   - WebAPI
 ---
 
+:::note
+此文為[《JavaScript 大全第七版》筆記](https://www.books.com.tw/products/0010886126)
+:::
+
 Fetch 用來發送 HTTP 請求，且完全基於`Promise`，可以使用`.then()`或是`async/await`解析回應。
 
 [Dog api](https://dog.ceo/dog-api/)範例：
