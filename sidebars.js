@@ -13,66 +13,76 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 
-
 module.exports = {
   frontendSidebar: {
     CSS: [
       {
-        type: 'category',
-        label: '動畫',
+        type: "category",
+        label: "動畫",
         collapsible: true,
         collapsed: false,
-        items: [{
-          type: 'doc',
-          id: "frontend/css/animation/transition",
-          label: "Transition"
-        },
-        {
-          type: 'doc',
-          id: "frontend/css/animation/animation",
-          label: "Animation"
-        }]
-      }
+        items: [
+          {
+            type: "doc",
+            id: "frontend/css/animation/transition",
+            label: "Transition",
+          },
+          {
+            type: "doc",
+            id: "frontend/css/animation/animation",
+            label: "Animation",
+          },
+        ],
+      },
     ],
     WebAPI: [
       {
-        type: 'doc',
-        label: 'Location',
-        id: 'frontend/web-api/location'
+        type: "doc",
+        label: "Location",
+        id: "frontend/web-api/location",
       },
       {
-        type: 'doc',
-        label: 'History',
-        id: 'frontend/web-api/history'
+        type: "doc",
+        label: "History",
+        id: "frontend/web-api/history",
       },
       {
-        type: 'doc',
-        label: 'Fetch',
-        id: 'frontend/web-api/fetch'
+        type: "doc",
+        label: "Fetch",
+        id: "frontend/web-api/fetch",
       },
       {
-        type: 'doc',
-        label: '瀏覽器儲存區',
-        id: 'frontend/web-api/storage'
+        type: "doc",
+        label: "瀏覽器儲存區",
+        id: "frontend/web-api/storage",
       },
-    ]
+    ],
   },
+  softwareSidebar: [
+    {
+      type: "category",
+      label: "Command Line",
+      items: [
+        { type: "doc", id: "software/command-line/basic", label: "基礎指令" },
+      ],
+    },
+  ],
   computerScienceBar: [
     {
-      type: 'category',
-      label: '網際網路協定',
+      type: "category",
+      label: "網際網路協定",
       items: [
         {
-          type: 'doc',
-          id: 'computer-science/internet/application1',
-          label: '應用程式協定(上)'
+          type: "doc",
+          id: "computer-science/internet/application1",
+          label: "應用程式協定(上)",
         },
         {
-          type: 'doc',
-          id: 'computer-science/internet/application2',
-          label: '應用程式協定(下)'
+          type: "doc",
+          id: "computer-science/internet/application2",
+          label: "應用程式協定(下)",
         },
-      ]
-    }
-  ]
+      ],
+    },
+  ],
 };

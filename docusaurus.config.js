@@ -79,6 +79,12 @@ const config = {
             label: '前端筆記'
           },
           {
+            type:'docSidebar',
+            sidebarId:'softwareSidebar',
+            position:'left',
+            label:'軟體開發筆記'
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'computerScienceBar',
             position: 'left',
