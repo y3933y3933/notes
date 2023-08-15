@@ -63,7 +63,9 @@ module.exports = {
       type: "category",
       label: "Command Line",
       items: [
-        { type: "doc", id: "software/command-line/basic", label: "基礎指令" },
+        { type: "doc", id: "software/command-line/basic", label: "基礎" },
+        { type: "doc", id: "software/command-line/file", label: "檔案" },
+
       ],
     },
   ],
