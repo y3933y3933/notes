@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"Internet","permalink":"/notes/tags/internet","count":2},{"label":"CSS","permalink":"/notes/tags/css","count":2},{"label":"WebAPI","permalink":"/notes/tags/web-api","count":4}]')}}]);
