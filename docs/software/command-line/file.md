@@ -87,3 +87,22 @@ mkdir -p files/java/c1 files/java/c2
 ```
 mkdir -p files/java/{c1,c2}
 ```
+
+建立多個子路徑
+```
+mkdir -p files/code/{java,javascript,python}
+
+```
+
+## 複製檔案
+```
+cp <要複製的檔案路徑> <要貼到的檔案路徑>
+```
+`cp`會覆蓋檔案，可以使用`-i` flag跳出提示，會問你是否要overwrite檔案。
+
+也可以複製一堆資料，拿來做備份方便。
+```
+cp files/docs/*.txt files/backup
+```
+
+## 複製路徑

@@ -65,7 +65,22 @@ module.exports = {
       items: [
         { type: "doc", id: "software/command-line/basic", label: "基礎" },
         { type: "doc", id: "software/command-line/file", label: "檔案" },
-
+      ],
+    },
+    {
+      type: "category",
+      label: "Git",
+      items: [
+        {
+          type:'doc',
+          id:'software/git/basic',
+          label:"基本操作"
+        },
+        {
+          type:'doc',
+          id:'software/git/branch',
+          label:'分支'
+        }
       ],
     },
   ],
