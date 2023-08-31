@@ -80,6 +80,12 @@ const config = {
           },
           {
             type:'docSidebar',
+            sidebarId:'backednSidebar',
+            position:'left',
+            label:'後端'
+          },
+          {
+            type:'docSidebar',
             sidebarId:'softwareSidebar',
             position:'left',
             label:'軟體開發'

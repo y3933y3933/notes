@@ -58,6 +58,18 @@ module.exports = {
       },
     ],
   },
+  backednSidebar: [
+    {
+      type: "category",
+      label: "Spring boot",
+      items: [
+        { type: "doc", id: "backend/spring-boot/environment", label: "環境建置" },
+        { type: "doc", id: "backend/spring-boot/intro", label: "基本介紹" },
+
+      ],
+
+    },
+  ],
   softwareSidebar: [
     {
       type: "category",
@@ -72,15 +84,21 @@ module.exports = {
       label: "Git",
       items: [
         {
-          type:'doc',
-          id:'software/git/basic',
-          label:"基本操作"
+          type: "doc",
+          id: "software/git/basic",
+          label: "基本操作",
         },
+      ],
+    },
+    {
+      type: "category",
+      label: "Clean Code",
+      items: [
         {
-          type:'doc',
-          id:'software/git/branch',
-          label:'分支'
-        }
+          type: "doc",
+          id: "software/clean-code/function",
+          label: "函式",
+        },
       ],
     },
   ],
