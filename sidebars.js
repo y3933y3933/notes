@@ -65,6 +65,7 @@ module.exports = {
       items: [
         { type: "doc", id: "backend/spring-boot/environment", label: "環境建置" },
         { type: "doc", id: "backend/spring-boot/intro", label: "基本介紹" },
+        { type: "doc", id: "backend/spring-boot/mvc", label: "MVC" },
 
       ],
 
