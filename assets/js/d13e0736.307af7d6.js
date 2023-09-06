@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3834],{7402:t=>{t.exports=JSON.parse('{"label":"TypeScript","permalink":"/notes/tags/type-script","allTagsPath":"/notes/tags","count":1,"items":[{"id":"frontend/typescript/utility-type","title":"Utility Type","description":"Return","permalink":"/notes/frontend/typescript/utility-type"}]}')}}]);
