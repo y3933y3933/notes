@@ -57,6 +57,13 @@ module.exports = {
         id: "frontend/web-api/storage",
       },
     ],
+    TypeScript:[
+      {
+        type: "doc",
+        label: "Utility Type",
+        id: "frontend/typescript/utility-type",
+      },
+    ]
   },
   backednSidebar: [
     {
@@ -66,6 +73,8 @@ module.exports = {
         { type: "doc", id: "backend/spring-boot/environment", label: "環境建置" },
         { type: "doc", id: "backend/spring-boot/intro", label: "基本介紹" },
         { type: "doc", id: "backend/spring-boot/mvc", label: "MVC" },
+        { type: "doc", id: "backend/spring-boot/thymeleaf", label: "Thymeleaf" },
+        { type: "doc", id: "backend/spring-boot/three-layer-codebase", label: "Three Layer Codebase" },
 
       ],
 
@@ -99,6 +108,22 @@ module.exports = {
           type: "doc",
           id: "software/clean-code/function",
           label: "函式",
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Java",
+      items: [
+        {
+          type: "doc",
+          id: "software/java/array",
+          label: "陣列(Array)",
+        },
+        {
+          type: "doc",
+          id: "software/java/collection",
+          label: "集合(Collections)",
         },
       ],
     },
