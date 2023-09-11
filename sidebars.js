@@ -74,6 +74,7 @@ module.exports = {
         { type: "doc", id: "backend/spring-boot/intro", label: "基本介紹" },
         { type: "doc", id: "backend/spring-boot/mvc", label: "MVC" },
         { type: "doc", id: "backend/spring-boot/thymeleaf", label: "Thymeleaf" },
+        { type: "doc", id: "backend/spring-boot/field-validation", label: "Field Validation" },
         { type: "doc", id: "backend/spring-boot/three-layer-codebase", label: "Three Layer Codebase" },
 
       ],
@@ -117,13 +118,18 @@ module.exports = {
       items: [
         {
           type: "doc",
+          id: "software/java/string",
+          label: "字串",
+        },
+        {
+          type: "doc",
           id: "software/java/array",
           label: "陣列(Array)",
         },
         {
           type: "doc",
-          id: "software/java/collection",
-          label: "集合(Collections)",
+          id: "software/java/array-list",
+          label: "ArrayList",
         },
       ],
     },
