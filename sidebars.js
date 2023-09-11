@@ -76,6 +76,7 @@ module.exports = {
         { type: "doc", id: "backend/spring-boot/thymeleaf", label: "Thymeleaf" },
         { type: "doc", id: "backend/spring-boot/field-validation", label: "Field Validation" },
         { type: "doc", id: "backend/spring-boot/three-layer-codebase", label: "Three Layer Codebase" },
+        { type: "doc", id: "backend/spring-boot/bean", label: "Beans and Dependency Injection" },
 
       ],
 
