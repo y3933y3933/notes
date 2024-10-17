@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "安的技術小宇宙",
-  tagline: "從點滴筆記中構建知識殿堂",
+  title: "My Notes",
+  tagline: "技術筆記",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "zh-TW",
-    locales: ["zh-TW"],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
@@ -67,6 +67,10 @@ const config: Config = {
           sidebarId: "codingSidebar",
           position: "left",
           label: "Coding",
+        },
+        {
+          label: "Blog",
+          href: "https://blog-flax-five.vercel.app/",
         },
       ],
     },
