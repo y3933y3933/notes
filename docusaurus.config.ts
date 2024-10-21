@@ -64,10 +64,17 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
+          sidebarId: "backendSidebar",
+          position: "left",
+          label: "Backend",
+        },
+        {
+          type: "docSidebar",
           sidebarId: "exerciseSidebar",
           position: "left",
           label: "Exercise",
         },
+
         {
           label: "Blog",
           href: "https://blog-flax-five.vercel.app/",

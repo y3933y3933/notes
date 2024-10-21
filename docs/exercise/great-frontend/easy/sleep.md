@@ -1,8 +1,3 @@
----
-slug: /
-sidebar_position: 1
----
-
 :::info
 [GreatFrontEnd Sleep](https://www.greatfrontend.com/questions/javascript/sleep)
 :::
